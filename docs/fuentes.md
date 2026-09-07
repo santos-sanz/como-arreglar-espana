@@ -35,7 +35,6 @@ Consulta: **7 de septiembre de 2026**. Se han preferido productores estadístico
 | S22 | [INE ECV 2025](https://www.ine.es/dyngs/Prensa/ECV2025.htm), 05/02/2026 | Distribución y exclusión: AROPE 25,7 %. La renta corresponde al año anterior. |
 | S23 | [MITECO, conclusiones mesas de regadíos](https://www.miteco.gob.es/content/dam/miteco/images/es/3-actualizacion-conclusiones-mesas-enrr_tcm30-547784.pdf) | Efecto rebote, límites de extracción y recuperación de costes con matices sociales. Documento de conclusiones, no estimación nacional del ahorro. |
 | S24 | [Donella Meadows, Leverage Points](https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/), 1999 | Marco conceptual original. No es un orden cuantificado de impacto de las reformas españolas. |
-
 | S25 | [idealista, alquiler diciembre de 2025](https://www.idealista.com/news/inmobiliario/vivienda/2026/01/02/878170-el-alquiler-en-espana-termina-2025-con-una-subida-anual-del-8-5), 02/01/2026 | +8,5 % y 14,7 €/m²: índice de medianas de precios de oferta, no contratos vigentes. Productor privado de datos; no se adoptan sus opiniones causales. |
 
 ## Reproducibilidad y mantenimiento
