@@ -1,6 +1,14 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useRef } from 'react';
+import subsystemData from './subsystems.json';
+import {
+  Dialog,
+  DialogContent,
+  DialogTitle,
+  DialogDescription,
+  DialogClose,
+} from '@/components/ui/dialog';
 import { Button } from '@/components/ui/button';
 import {
   Accordion,
@@ -20,126 +28,56 @@ import {
   GraduationCap,
   Landmark,
   Zap,
+  Droplets,
+  HeartPulse,
+  HandHeart,
+  Scale,
+  TrainFront,
+  Compass,
+  FlaskConical,
+  Wheat,
+  X,
+  Plus,
 } from 'lucide-react';
 
-const topics = [
-  {
-    id: 'vivienda',
-    title: 'Vivienda',
-    icon: Home,
-    color: '#ff855f',
-    x: 26,
-    y: 25,
-    value: '30 años',
-    label: 'para dejar el hogar familiar · 2024',
-    text: 'El acceso a una casa conecta empleo, autonomía y decisiones familiares. Construir donde hay demanda lleva tiempo; proteger a quienes ya alquilan también importa.',
-    action:
-      'Más vivienda asequible cerca del empleo, con transporte y licencias predecibles.',
-    caution:
-      'La vivienda influye en la fecundidad, pero no la explica por sí sola.',
-    source: 'Eurostat',
-    url: 'https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20250923-1',
-  },
-  {
-    id: 'demografia',
-    title: 'Demografía',
-    icon: Sprout,
-    color: '#d6b5ff',
-    x: 73,
-    y: 25,
-    value: '1,10',
-    label: 'hijos por mujer · 2024',
-    text: 'La fecundidad es baja y los efectos tardan décadas. Los cuidados, la estabilidad y la integración migratoria forman parte de la respuesta.',
-    action:
-      'Facilitar proyectos de vida: vivienda, conciliación, cuidados y empleo formal.',
-    caution:
-      'Un indicador anual de fecundidad no equivale a los hijos finales de una generación.',
-    source: 'INE',
-    url: 'https://www.ine.es/dyngs/Prensa/MNP2024.htm',
-  },
-  {
-    id: 'productividad',
-    title: 'Productividad',
-    icon: BriefcaseBusiness,
-    color: '#79c8ff',
-    x: 17,
-    y: 60,
-    value: 'Valor / hora',
-    label: 'la clave de la convergencia',
-    text: 'La inversión, la formación y la difusión tecnológica ayudan a producir más por hora. La OCDE detecta avances recientes, aunque persiste la brecha.',
-    action:
-      'Ayudar a las empresas a invertir, adoptar tecnología y crecer con competencia.',
-    caution:
-      'El tamaño empresarial está asociado a productividad; esa asociación no prueba una única dirección causal.',
-    source: 'OCDE · España 2025',
-    url: 'https://www.oecd.org/en/publications/oecd-economic-surveys-spain-2025_abc5c435-en/full-report/fostering-productivity-growth-in-small-and-medium-sized-enterprises_039acae9.html',
-  },
-  {
-    id: 'pensiones',
-    title: 'Pensiones',
-    icon: Landmark,
-    color: '#ffba59',
-    x: 82,
-    y: 60,
-    value: '123 %',
-    label: 'deuda / PIB en 2050 · escenario AIReF 2026',
-    text: 'El envejecimiento presiona pensiones, sanidad y cuidados. Cumplir la regla de gasto de pensiones no garantiza por sí solo la sostenibilidad fiscal.',
-    action:
-      'Evaluar ingresos, prestaciones, empleo y edad efectiva junto a la protección de rentas bajas.',
-    caution:
-      'Es un escenario condicionado a políticas constantes, no un dato observado ni una predicción inevitable.',
-    source: 'AIReF · mayo de 2026',
-    url: 'https://www.airef.es/en/news/airef-confirms-the-2025-result-the-pension-expenditure-rule-is-formally-compliedwith-but-it-does-not-guarantee-sustainability/',
-  },
-  {
-    id: 'educacion',
-    title: 'Educación y empleo',
-    icon: GraduationCap,
-    color: '#77e1cc',
-    x: 30,
-    y: 80,
-    value: '12,8 %',
-    label: 'abandono educativo temprano · 2025',
-    text: 'El aprendizaje sostiene la productividad. Importan la calidad de la FP dual, la estabilidad laboral y que los datos de inserción existentes sean útiles.',
-    action:
-      'Mejorar la formación en empresa y ampliar QEDU, que ya publica inserción universitaria.',
-    caution:
-      'Contratos temporales y personas con empleo temporal son indicadores distintos.',
-    source: 'Ministerio de Educación',
-    url: 'https://www.educacionfpydeportes.gob.es/dam/jcr%3Ab410eba9-18b7-44d5-b6ad-f1c69069d75e/1-3-6-tabla-1-abandono-nivel-de-formaci-n-2025.pdf',
-  },
-  {
-    id: 'energia',
-    title: 'Energía y agua',
-    icon: Zap,
-    color: '#d6ec6b',
-    x: 70,
-    y: 80,
-    value: '55,5 %',
-    label: 'electricidad renovable · 2025',
-    text: 'Una ventaja real necesita red, almacenamiento y demanda flexible. En el agua, ahorrar energía no sustituye a gestionar las extracciones.',
-    action:
-      'Conectar renovables y actividad productiva; reutilizar agua y respetar límites de cuenca.',
-    caution:
-      'Récord de producción renovable, pero su cuota bajó desde el 56,8 % de 2024.',
-    source: 'Red Eléctrica',
-    url: 'https://www.sistemaelectrico-ree.es/es/informe-del-sistema-electrico/generacion/generacion-de-energia-electrica/generacion-renovable-de-energia-electrica',
-  },
-];
-const links = [
-  [0, 1],
-  [0, 2],
-  [1, 3],
-  [2, 4],
-  [2, 5],
-  [3, 0],
-  [4, 1],
-  [5, 3],
-];
+const icons = {
+  Home,
+  Sprout,
+  BriefcaseBusiness,
+  GraduationCap,
+  Landmark,
+  Zap,
+  Droplets,
+  HeartPulse,
+  HandHeart,
+  Scale,
+  TrainFront,
+  Compass,
+  FlaskConical,
+  Wheat,
+};
+const topics = subsystemData.map((t) => ({
+  ...t,
+  icon: icons[t.icon as keyof typeof icons],
+}));
+const links = topics.flatMap((t, a) =>
+  t.related
+    .map((id) => [a, topics.findIndex((x) => x.id === id)])
+    .filter(([from, to]) => from < to),
+);
 
 export default function Page() {
   const [selected, setSelected] = useState(0);
+  const [expanded, setExpanded] = useState(false);
+  const opener = useRef<HTMLElement | null>(null);
+  const panelRef = useRef<HTMLDivElement | null>(null);
   const topic = topics[selected];
+  function openTopic(i: number, element?: HTMLElement) {
+    if (!expanded && element) opener.current = element;
+    setSelected(i);
+    setExpanded(true);
+    panelRef.current?.scrollTo({ top: 0 });
+  }
   const related = [
     ...new Set(
       links
@@ -154,7 +92,7 @@ export default function Page() {
       </a>
       <header className="masthead">
         <a className="brand" href="#">
-          <Network size={24} />
+          <span className="spanish-mark" aria-label="España" />
           <span>
             ESPAÑA<span className="brand-light"> / EN SISTEMA</span>
           </span>
@@ -173,7 +111,7 @@ export default function Page() {
       </header>
       <section className="intro">
         <p className="eyebrow">
-          <span className="status-dot" /> UN PAÍS, MUCHAS CONEXIONES{' '}
+          <span className="status-dot" /> ESPAÑA, PIEZA A PIEZA{' '}
           <span className="edition">EDICIÓN 07.09.2026</span>
         </p>
         <h1>
@@ -187,14 +125,17 @@ export default function Page() {
       <section id="mapa" className="map-section">
         <div className="section-top">
           <h2>
-            <span>01</span> Explora el sistema
+            <span>01</span> Un mosaico de subsistemas
           </h2>
-          <p>Elige un tema. Sigue sus conexiones.</p>
+          <p>Pulsa una pieza para abrir su análisis completo.</p>
         </div>
         <div className="explorer">
           <div className="map">
             <div className="map-caption">
-              MAPA DE RELACIONES <span>6 ÁREAS CONECTADAS</span>
+              MAPA DE RELACIONES{' '}
+              <span>
+                {topics.length} ÁMBITOS · {sources.length} FUENTES
+              </span>
             </div>
             <svg
               viewBox="0 0 1000 620"
@@ -211,11 +152,6 @@ export default function Page() {
                 />
               ))}
             </svg>
-            <div className="map-center">
-              <span>NO HAY UNA</span>
-              <strong>pieza aislada.</strong>
-              <span>VIVIENDA ↔ EMPLEO ↔ FUTURO</span>
-            </div>
             {topics.map((t, i) => (
               <Button
                 variant="ghost"
@@ -229,12 +165,15 @@ export default function Page() {
                   } as React.CSSProperties
                 }
                 aria-pressed={selected === i}
-                onClick={() => setSelected(i)}
+                aria-haspopup="dialog"
+                aria-label={`Abrir análisis de ${t.title}`}
+                onClick={(event) => openTopic(i, event.currentTarget)}
               >
                 <span className="node-icon">
                   <t.icon size={25} />
                 </span>
                 <span>{t.title}</span>
+                <Plus size={14} className="node-expand" aria-hidden="true" />
               </Button>
             ))}
             <p className="map-note">
@@ -250,7 +189,9 @@ export default function Page() {
             <div className="detail-title">
               <topic.icon size={22} />
               <h3>{topic.title}</h3>
-              <span>0{selected + 1}/06</span>
+              <span>
+                {String(selected + 1).padStart(2, '0')}/{topics.length}
+              </span>
             </div>
             <strong className="metric">{topic.value}</strong>
             <p className="metric-label">{topic.label}</p>
@@ -258,6 +199,12 @@ export default function Page() {
               {topic.source} <ArrowUpRight size={14} />
             </a>
             <p className="detail-text">{topic.text}</p>
+            <Button
+              className="expand-topic"
+              onClick={(event) => openTopic(selected, event.currentTarget)}
+            >
+              Abrir análisis completo <Plus size={17} />
+            </Button>
             <div className="lever">
               <span>UNA PALANCA POSIBLE</span>
               <p>{topic.action}</p>
@@ -270,7 +217,7 @@ export default function Page() {
                   variant="outline"
                   className="related-button"
                   key={i}
-                  onClick={() => setSelected(i)}
+                  onClick={(event) => openTopic(i, event.currentTarget)}
                 >
                   {topics[i].title}
                   <ArrowUpRight size={13} />
@@ -481,9 +428,10 @@ export default function Page() {
             </AccordionTrigger>
             <AccordionContent>
               <p>
-                El mapa es una explicación cualitativa. Sus conexiones son
-                hipótesis informadas; no un simulador calibrado. La posición y
-                el color no representan importancia ni magnitud.
+                El mapa reúne una selección de 15 subsistemas, no una
+                clasificación exhaustiva. Es una explicación cualitativa. Sus
+                conexiones son hipótesis informadas; no un simulador calibrado.
+                La posición y el color no representan importancia ni magnitud.
               </p>
               <p>
                 Los años de la secuencia son horizontes propuestos. No se han
@@ -521,6 +469,154 @@ export default function Page() {
           </AccordionItem>
         </Accordion>
       </section>
+      <Dialog open={expanded} onOpenChange={setExpanded}>
+        <DialogContent
+          className="subsystem-modal"
+          showCloseButton={false}
+          finalFocus={() => opener.current}
+        >
+          <div className="modal-top">
+            <span className="spanish-mark" aria-hidden="true" />
+            <span>
+              ESPAÑA / {String(selected + 1).padStart(2, '0')} DE{' '}
+              {topics.length}
+            </span>
+            <DialogClose
+              render={
+                <Button
+                  variant="ghost"
+                  className="close-topic"
+                  aria-label="Cerrar análisis"
+                />
+              }
+            >
+              <X size={21} />
+              <span>Cerrar</span>
+            </DialogClose>
+          </div>
+          <div className="modal-scroll" ref={panelRef}>
+            <div className="modal-heading">
+              <topic.icon size={36} />
+              <div>
+                <p className="eyebrow">
+                  ANÁLISIS DEL SUBSISTEMA{topic.isNew ? ' · NUEVO' : ''}
+                </p>
+                <DialogTitle className="modal-title">{topic.title}</DialogTitle>
+              </div>
+            </div>
+            <DialogDescription className="modal-description">
+              {topic.text}
+            </DialogDescription>
+            <div className="modal-fact">
+              <strong>{topic.value}</strong>
+              <div>
+                <p>{topic.label}</p>
+                <a href={topic.url}>{topic.source} ↗</a>
+              </div>
+            </div>
+            <section>
+              <h3>Qué ocurre y por qué importa</h3>
+              {topic.diagnosis.map((p) => (
+                <p key={p}>{p}</p>
+              ))}
+            </section>
+            <section className="causal-section">
+              <h3>El mecanismo, paso a paso</h3>
+              <p className="section-note">
+                Hipótesis de conexión; no una estimación causal. La última pieza
+                no cierra necesariamente un bucle.
+              </p>
+              <ol className="causal-chain">
+                {topic.chain.map((step, i) => (
+                  <li key={step}>
+                    <span>{i + 1}</span>
+                    {step}
+                    {i < topic.chain.length - 1 && (
+                      <ArrowRight aria-hidden="true" size={18} />
+                    )}
+                  </li>
+                ))}
+              </ol>
+            </section>
+            <div className="modal-columns">
+              <section>
+                <h3>Qué se podría cambiar</h3>
+                <p className="section-note">Propuestas del análisis</p>
+                <ul>
+                  {topic.measures.map((x) => (
+                    <li key={x}>{x}</li>
+                  ))}
+                </ul>
+              </section>
+              <section>
+                <h3>Qué podría salir mal</h3>
+                <ul>
+                  {topic.risks.map((x) => (
+                    <li key={x}>{x}</li>
+                  ))}
+                </ul>
+              </section>
+            </div>
+            <section className="measurement">
+              <h3>Cómo comprobar si mejora</h3>
+              <ul>
+                {topic.indicators.map((x) => (
+                  <li key={x}>{x}</li>
+                ))}
+              </ul>
+              <dl>
+                <div>
+                  <dt>Coordinación</dt>
+                  <dd>{topic.actors}</dd>
+                </div>
+                <div>
+                  <dt>Horizonte propuesto</dt>
+                  <dd>{topic.horizon}</dd>
+                </div>
+                <div>
+                  <dt>Coste a evaluar</dt>
+                  <dd>{topic.cost}</dd>
+                </div>
+              </dl>
+            </section>
+            <section>
+              <h3>Con qué otras piezas se conecta</h3>
+              <div className="modal-related">
+                {topic.related.map((id) => {
+                  const i = topics.findIndex((t) => t.id === id);
+                  return (
+                    <Button
+                      key={id}
+                      variant="outline"
+                      onClick={() => openTopic(i)}
+                    >
+                      {topics[i].title}
+                      <ArrowUpRight size={15} />
+                    </Button>
+                  );
+                })}
+              </div>
+            </section>
+            <section className="modal-sources">
+              <h3>Evidencia y límites</h3>
+              <p>{topic.caution}</p>
+              <ol>
+                {topic.sourceIds.map((id) => {
+                  const source = sources.find((s) => s.id === id)!;
+                  return (
+                    <li key={id}>
+                      <a href={source.url}>
+                        {source.id} · {source.title} ↗
+                      </a>
+                      <p>{source.note}</p>
+                    </li>
+                  );
+                })}
+              </ol>
+            </section>
+          </div>
+        </DialogContent>
+      </Dialog>
       <footer>
         <span>ESPAÑA / EN SISTEMA</span>
         <p>

@@ -6,6 +6,8 @@ España combina avances reales con dificultades persistentes para acceder a vivi
 
 **[Abrir la web en Sites](https://como-arreglar-espana.santossanzandres.chatgpt.site)** · Publicada con acceso privado para la cuenta propietaria.
 
+**[Explorar los 15 subsistemas](docs/subsistemas.md)** · Fichas individuales con diagnóstico, mecanismos, propuestas, riesgos e indicadores.
+
 **Lecturas:** [auditoría del contenido original](docs/crosscheck.md) · [análisis ampliado y evaluación de políticas](docs/analisis-ampliado.md) · [fuentes y método](docs/fuentes.md) · [original histórico, sin corregir](docs/analisis-original.md). La web está en [`web/`](web/).
 
 ## 1. Qué sabemos y de cuándo es cada dato
