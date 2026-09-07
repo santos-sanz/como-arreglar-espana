@@ -1,0 +1,152 @@
+[
+  {
+    "id": "S01",
+    "title": "BdE, presentación Informe Anual 2025",
+    "url": "https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesAnuales/InformesAnuales/25/Fich/IIPP-2026-06-18-lopez-salido-es-or.pdf",
+    "note": "Hogares frente a viviendas terminadas en España, 2021–2025. Comparadores usan visados con desfase: no confundir medidas."
+  },
+  {
+    "id": "S02",
+    "title": "INE MNP 2024",
+    "url": "https://www.ine.es/dyngs/Prensa/MNP2024.htm",
+    "note": "Fecundidad y nacimientos definitivos. País de nacimiento ≠ nacionalidad."
+  },
+  {
+    "id": "S03",
+    "title": "INE EMN/EDeS 2025",
+    "url": "https://www.ine.es/dyngs/Prensa/es/EDES_EMN2025.htm",
+    "note": "Nacimientos y saldo vegetativo provisionales."
+  },
+  {
+    "id": "S04",
+    "title": "INE Censo 2025",
+    "url": "https://ine.es/dyngs/Prensa/CensoVariables2025.htm",
+    "note": "Residentes, cambio anual y origen. Cambio de población ≠ saldo migratorio."
+  },
+  {
+    "id": "S05",
+    "title": "INE Proyecciones 2024–2074",
+    "url": "https://ine.es/dyngs/Prensa/es/PROP20242074.htm",
+    "note": "Escenario demográfico; flujos migratorios 2024–2073 y población final."
+  },
+  {
+    "id": "S06",
+    "title": "Eurostat, salida del hogar 2024",
+    "url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20250923-1",
+    "note": "España 30,0; UE 26,2. Fuente directa nueva que sustituye a prensa."
+  },
+  {
+    "id": "S07",
+    "title": "SEPE, jóvenes 2026, datos 2025",
+    "url": "https://www.sepe.es/dctm/informes%3A09019af4802688d5/RElTRVdFQg%3D%3D/4676-701.pdf",
+    "note": "Contratos a menores de 30. El 59,26 % no es temporalidad de asalariados."
+  },
+  {
+    "id": "S08",
+    "title": "Consejo de Productividad, 1999–2024",
+    "url": "https://portal.mineco.gob.es/es-es/economiayempresa/ConsejoProductividad/Documents/Evolucion-productividad-hora-Espana_1999-2024.pdf",
+    "note": "Descomposición de PIB per cápita en PPA. No demuestra causas del tamaño empresarial."
+  },
+  {
+    "id": "S09",
+    "title": "AIReF, evaluación de pensiones 2025",
+    "url": "https://www.airef.es/es/noticias/la-airef-constata-el-cumplimiento-de-la-regla-de-gasto-de-pensiones-pero-alerta-de-que-la-sostenibilidad-del-sistema-no-ha-mejorado/",
+    "note": "Identificación del escenario antiguo: deuda 129/181 y pensiones 16,1 en 2050. Contenido indexado oficial; acceso directo falló."
+  },
+  {
+    "id": "S10",
+    "title": "AIReF, evaluación de pensiones 2026",
+    "url": "https://www.airef.es/en/news/airef-confirms-the-2025-result-the-pension-expenditure-rule-is-formally-compliedwith-but-it-does-not-guarantee-sustainability/",
+    "note": "Actualización: deuda 123 % en 2050; medidas de ingresos 1,6 % del PIB en promedio 2022–2050. Contenido indexado oficial. No intercambiar gasto medio y final."
+  },
+  {
+    "id": "S11",
+    "title": "BdE, deuda 2025T4",
+    "url": "https://www.bde.es/wbe/es/noticias-eventos/actualidad-banco-espana/deuda-aapp-2025t4.html",
+    "note": "Deuda consolidada 100,7 % del PIB."
+  },
+  {
+    "id": "S12",
+    "title": "REE, generación renovable 2025",
+    "url": "https://www.sistemaelectrico-ree.es/es/informe-del-sistema-electrico/generacion/generacion-de-energia-electrica/generacion-renovable-de-energia-electrica",
+    "note": "150.988 GWh; cuota 55,5 %, frente a 56,8 % en 2024. Página dinámica: conservar año."
+  },
+  {
+    "id": "S13",
+    "title": "Oficina C/FECYT, sequía",
+    "url": "https://oficinac.es/sites/default/files/informes/2025_10_30_InformeC-Sequia-oficinac-fecyt-congreso.pdf",
+    "note": "Demanda estimada usos consuntivos 2022–2027. Impactos sistémicos y heterogeneidad territorial."
+  },
+  {
+    "id": "S14",
+    "title": "INE, CNTR 2025T4",
+    "url": "https://ine.es/dyngs/Prensa/es/CNTR4T25.htm",
+    "note": "Sustituye previsión PIB 2,9 por estimación observada 2,8 %."
+  },
+  {
+    "id": "S15",
+    "title": "Ministerio de Educación, abandono 2025",
+    "url": "https://www.educacionfpydeportes.gob.es/dam/jcr%3Ab410eba9-18b7-44d5-b6ad-f1c69069d75e/1-3-6-tabla-1-abandono-nivel-de-formaci-n-2025.pdf",
+    "note": "Actualiza 13,0 % (2024) a 12,8 % (2025)."
+  },
+  {
+    "id": "S16",
+    "title": "QEDU, ayuda metodológica",
+    "url": "https://www.ciencia.gob.es/qedu/AyudaQEDU.html",
+    "note": "Existencia de inserción por titulación; afiliación y bases de cotización. Cohorte de egresados, cobertura y ausencia de salarios completos."
+  },
+  {
+    "id": "S17",
+    "title": "OCDE Economic Survey Spain 2025, productividad",
+    "url": "https://www.oecd.org/en/publications/oecd-economic-surveys-spain-2025_abc5c435-en/full-report/fostering-productivity-growth-in-small-and-medium-sized-enterprises_039acae9.html",
+    "note": "Contraste del «no converge»; avances recientes y brecha persistente; gestión y difusión tecnológica."
+  },
+  {
+    "id": "S18",
+    "title": "OCDE Spain 2025, sostenibilidad",
+    "url": "https://www.oecd.org/en/publications/oecd-economic-surveys-spain-2025_abc5c435-en/full-report/sustaining-growth-and-achieving-fiscal-sustainability_ab211a46.html",
+    "note": "Alternativas fiscales, envejecimiento y necesidad de valorar costes. Sus escenarios no son nuestro presupuesto."
+  },
+  {
+    "id": "S19",
+    "title": "Diamond, McQuade y Qian, AER 2019",
+    "url": "https://www.aeaweb.org/articles?id=10.1257%2Faer.20181289",
+    "note": "Protección de inquilinos y efectos de oferta bajo regulación en San Francisco. Validez externa limitada."
+  },
+  {
+    "id": "S20",
+    "title": "Jofre-Monseny, Martínez-Mazza y Segú, IEB WP 2022/02",
+    "url": "https://ieb.ub.edu/wp-content/uploads/2022/02/Doc2022-02.pdf",
+    "note": "Evidencia de Cataluña 2020 que obliga a matizar la afirmación universal sobre pérdida de oferta. El enlace corresponde al working paper."
+  },
+  {
+    "id": "S21",
+    "title": "OCDE Society at a Glance 2024, España",
+    "url": "https://www.oecd.org/en/publications/society-at-a-glance-2024-country-notes_fd5558c7-en/spain_b1ed2dfd-en.html",
+    "note": "Empleo, vivienda, apoyo familiar y cuidados como determinantes múltiples. No identifica una solución única."
+  },
+  {
+    "id": "S22",
+    "title": "INE ECV 2025",
+    "url": "https://www.ine.es/dyngs/Prensa/ECV2025.htm",
+    "note": "Distribución y exclusión: AROPE 25,7 %. La renta corresponde al año anterior."
+  },
+  {
+    "id": "S23",
+    "title": "MITECO, conclusiones mesas de regadíos",
+    "url": "https://www.miteco.gob.es/content/dam/miteco/images/es/3-actualizacion-conclusiones-mesas-enrr_tcm30-547784.pdf",
+    "note": "Efecto rebote, límites de extracción y recuperación de costes con matices sociales. Documento de conclusiones, no estimación nacional del ahorro."
+  },
+  {
+    "id": "S24",
+    "title": "Donella Meadows, Leverage Points",
+    "url": "https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/",
+    "note": "Marco conceptual original. No es un orden cuantificado de impacto de las reformas españolas."
+  },
+  {
+    "id": "S25",
+    "title": "idealista, alquiler diciembre de 2025",
+    "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/01/02/878170-el-alquiler-en-espana-termina-2025-con-una-subida-anual-del-8-5",
+    "note": "+8,5 % y 14,7 €/m²: índice de medianas de precios de oferta, no contratos vigentes. Productor privado de datos; no se adoptan sus opiniones causales."
+  }
+]
