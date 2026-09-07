@@ -37,6 +37,18 @@ Consulta: **7 de septiembre de 2026**. Se han preferido productores estadístico
 | S24 | [Donella Meadows, Leverage Points](https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/), 1999 | Marco conceptual original. No es un orden cuantificado de impacto de las reformas españolas. |
 | S25 | [idealista, alquiler diciembre de 2025](https://www.idealista.com/news/inmobiliario/vivienda/2026/01/02/878170-el-alquiler-en-espana-termina-2025-con-una-subida-anual-del-8-5), 02/01/2026 | +8,5 % y 14,7 €/m²: índice de medianas de precios de oferta, no contratos vigentes. Productor privado de datos; no se adoptan sus opiniones causales. |
 
+## Fuentes añadidas para los subsistemas individuales
+
+| ID | Fuente | Alcance |
+| --- | --- | --- |
+| S26 | [Sanidad · Informe anual SNS 2024](https://www.sanidad.gob.es/estadEstudios/estadisticas/sisInfSanSNS/tablasEstadisticas/InfAnSNS.htm) | Publicado en diciembre de 2025; reúne sobre todo datos de 2023 y algunos de 2024. No es una medición íntegra de 2025. |
+| S27 | [Imserso · balance SAAD diciembre 2025](https://imserso.es/detalle-actualidad/-/asset_publisher/n1oS8lWfrx6m/content/la-lista-de-espera-de-la-dependencia-baja-casi-un-20-en-un-ano-y-registra-un-maximo-historico-de-personas-atendidas/20123) | Evolución de atención y espera en dependencia. Distinguir solicitud, reconocimiento y prestación efectiva. |
+| S28 | [CGPJ · Justicia Dato a Dato](https://www.poderjudicial.es/cgpj/es/Temas/Estadistica-Judicial/Estudios-e-Informes/Justicia-Dato-a-Dato/) | Series anuales de actividad judicial. Comparar jurisdicción y territorio; no usar una cifra única como medida de toda la calidad institucional. |
+| S29 | [Transportes · OTLE, informe anual 2024](https://cdn.transportes.gob.es/portal-web-drupal/OTLE/elementos_otle/informe_anual_2024_%28abril_2025%29.pdf) | Edición de abril de 2025; los años de referencia varían según indicador. Infraestructura, actividad y accesibilidad no son equivalentes. |
+| S30 | [INE · Cuenta Satélite del Turismo 2024](https://www.ine.es/dyngs/Prensa/CSTE2024.htm) | 12,6 % del PIB asociado al turismo en 2024, avance. No confundir con PIB directo turístico ni interpretar como beneficio neto. |
+| S31 | [INE · Actividades de I+D 2024](https://www.ine.es/dyngs/Prensa/IMASD2024.htm) | Gasto interno 23.931 millones y 1,50 % del PIB en 2024. Esfuerzo de investigación, no resultado ni productividad causal. |
+| S32 | [MAPA · Indicadores agricultura, pesca y alimentación](https://www.mapa.gob.es/es/ministerio/servicios/analisis-y-prospectiva/serie-indicadores/indicadores_semestre) | Informe anual 2024: producción, mercados, empleo y políticas. Distinguir sector primario, industria alimentaria y cadena completa. |
+
 ## Reproducibilidad y mantenimiento
 
 1. Conservar periodo observado, fecha de publicación y fecha de consulta separados.

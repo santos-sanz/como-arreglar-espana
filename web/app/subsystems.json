@@ -1,0 +1,669 @@
+[
+  {
+    "id": "vivienda",
+    "title": "Vivienda",
+    "color": "#ff855f",
+    "value": "30 años",
+    "label": "para dejar el hogar familiar · 2024",
+    "text": "El acceso a una casa conecta empleo, autonomía y decisiones familiares. Construir donde hay demanda lleva tiempo; proteger a quienes ya alquilan también importa.",
+    "action": "Más vivienda asequible cerca del empleo, con transporte y licencias predecibles.",
+    "caution": "La vivienda influye en la fecundidad, pero no la explica por sí sola.",
+    "source": "Eurostat",
+    "url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20250923-1",
+    "icon": "Home",
+    "diagnosis": [
+      "Parque disponible, vivienda asequible y suelo servido.",
+      "La oferta responde con retraso y la demanda se concentra cerca de empleo y servicios."
+    ],
+    "chain": [
+      "Precio alto",
+      "Incentivo a construir",
+      "Vivienda disponible",
+      "Menor presión de precios"
+    ],
+    "measures": [
+      "Construir y rehabilitar donde haya demanda, con asequibilidad duradera.",
+      "Proteger a hogares vulnerables mientras llega la nueva oferta."
+    ],
+    "risks": [
+      "Desplazamiento entre municipios y ayudas capitalizadas en precios.",
+      "Una regulación debe evaluarse por diseño, cobertura y horizonte."
+    ],
+    "indicators": [
+      "Viviendas entregadas y ocupadas",
+      "Esfuerzo de alquiler por renta",
+      "Tiempo de licencia, mediana y P90"
+    ],
+    "sourceIds": ["S01", "S06", "S19", "S20", "S25"],
+    "actors": "Ayuntamientos, CCAA y Estado",
+    "horizon": "2–10 años; protección desde el inicio",
+    "cost": "Inversión alta y mantenimiento; evaluar suelo y financiación",
+    "related": ["demografia", "movilidad", "turismo", "instituciones"],
+    "x": 18,
+    "y": 13,
+    "isNew": false
+  },
+  {
+    "id": "demografia",
+    "title": "Demografía",
+    "color": "#d6b5ff",
+    "value": "1,10",
+    "label": "hijos por mujer · 2024",
+    "text": "La fecundidad es baja y los efectos tardan décadas. Los cuidados, la estabilidad y la integración migratoria forman parte de la respuesta.",
+    "action": "Facilitar proyectos de vida: vivienda, conciliación, cuidados y empleo formal.",
+    "caution": "Un indicador anual de fecundidad no equivale a los hijos finales de una generación.",
+    "source": "INE",
+    "url": "https://www.ine.es/dyngs/Prensa/MNP2024.htm",
+    "icon": "Sprout",
+    "diagnosis": [
+      "Nacimientos, mortalidad, migración y estructura por edades.",
+      "Las decisiones familiares dependen también de conciliación, preferencias y seguridad económica."
+    ],
+    "chain": [
+      "Vivienda y estabilidad",
+      "Autonomía personal",
+      "Decisiones familiares",
+      "Población futura"
+    ],
+    "measures": [
+      "Ampliar opciones de conciliación y cuidados accesibles.",
+      "Facilitar integración y reconocimiento de competencias con garantías."
+    ],
+    "risks": [
+      "Tratar escenarios migratorios como predicciones o cuotas necesarias.",
+      "Evaluar una política familiar solo por el número de nacimientos."
+    ],
+    "indicators": [
+      "Fecundidad con su año",
+      "Emancipación y bienestar",
+      "Empleo y acceso a servicios por origen"
+    ],
+    "sourceIds": ["S02", "S04", "S05", "S21"],
+    "actors": "Estado, CCAA y servicios locales",
+    "horizon": "1–5 años en servicios; décadas en estructura demográfica",
+    "cost": "Gasto recurrente; efectos distributivos heterogéneos",
+    "related": ["vivienda", "pensiones", "cuidados"],
+    "x": 50,
+    "y": 13,
+    "isNew": false
+  },
+  {
+    "id": "productividad",
+    "title": "Productividad",
+    "color": "#79c8ff",
+    "value": "Valor / hora",
+    "label": "la clave de la convergencia",
+    "text": "La inversión, la formación y la difusión tecnológica ayudan a producir más por hora. La OCDE detecta avances recientes, aunque persiste la brecha.",
+    "action": "Ayudar a las empresas a invertir, adoptar tecnología y crecer con competencia.",
+    "caution": "El tamaño empresarial está asociado a productividad; esa asociación no prueba una única dirección causal.",
+    "source": "OCDE · España 2025",
+    "url": "https://www.oecd.org/en/publications/oecd-economic-surveys-spain-2025_abc5c435-en/full-report/fostering-productivity-growth-in-small-and-medium-sized-enterprises_039acae9.html",
+    "icon": "BriefcaseBusiness",
+    "diagnosis": [
+      "Capital, gestión, conocimiento y organización por hora trabajada.",
+      "La brecha estructural coexiste con mejoras recientes; no todas las empresas afrontan el mismo freno."
+    ],
+    "chain": [
+      "Inversión y capacidades",
+      "Valor por hora",
+      "Margen para invertir",
+      "Nueva inversión"
+    ],
+    "measures": [
+      "Apoyar adopción y gestión con evaluación de adicionalidad.",
+      "Revisar barreras al crecimiento sin eliminar derechos ni competencia."
+    ],
+    "risks": [
+      "Financiar inversiones que se harían de todos modos.",
+      "Suponer que la productividad se reparte automáticamente como salario."
+    ],
+    "indicators": [
+      "Valor añadido real por hora",
+      "Inversión adicional",
+      "Salarios y difusión entre empresas"
+    ],
+    "sourceIds": ["S08", "S17", "S31"],
+    "actors": "Empresas, organismos económicos y financiadores",
+    "horizon": "1–5 años; aprendizaje acumulativo",
+    "cost": "Cofinanciación y capacidades; evitar subsidios permanentes",
+    "related": ["empleo", "innovacion", "energia", "instituciones"],
+    "x": 82,
+    "y": 13,
+    "isNew": false
+  },
+  {
+    "id": "pensiones",
+    "title": "Pensiones",
+    "color": "#ffba59",
+    "value": "123 %",
+    "label": "deuda / PIB en 2050 · escenario AIReF 2026",
+    "text": "El envejecimiento presiona pensiones, sanidad y cuidados. Cumplir la regla de gasto de pensiones no garantiza por sí solo la sostenibilidad fiscal.",
+    "action": "Evaluar ingresos, prestaciones, empleo y edad efectiva junto a la protección de rentas bajas.",
+    "caution": "Es un escenario condicionado a políticas constantes, no un dato observado ni una predicción inevitable.",
+    "source": "AIReF · mayo de 2026",
+    "url": "https://www.airef.es/en/news/airef-confirms-the-2025-result-the-pension-expenditure-rule-is-formally-compliedwith-but-it-does-not-guarantee-sustainability/",
+    "icon": "Landmark",
+    "diagnosis": [
+      "Prestaciones, cotizaciones, impuestos, transferencias y deuda.",
+      "La presión del envejecimiento incluye salud y dependencia, no solo jubilación."
+    ],
+    "chain": [
+      "Envejecimiento",
+      "Gasto y financiación",
+      "Saldo presupuestario",
+      "Deuda e intereses"
+    ],
+    "measures": [
+      "Comparar paquetes completos de ingresos, empleo y prestaciones.",
+      "Publicar incidencia por cohorte y renta, preservando mínimos."
+    ],
+    "risks": [
+      "Confundir cumplimiento de una regla con sostenibilidad.",
+      "Aplicar ajustes uniformes a carreras y estados de salud distintos."
+    ],
+    "indicators": [
+      "Suficiencia de prestaciones",
+      "Saldo primario y deuda/PIB",
+      "Incidencia por renta y generación"
+    ],
+    "sourceIds": ["S09", "S10", "S11", "S18"],
+    "actors": "Estado, diálogo social y evaluación AIReF",
+    "horizon": "Transición de 1–15 años",
+    "cost": "Presentar ahorro, ingresos y compensaciones por separado",
+    "related": ["demografia", "empleo", "cuidados"],
+    "x": 18,
+    "y": 30,
+    "isNew": false
+  },
+  {
+    "id": "educacion",
+    "title": "Educación",
+    "color": "#77e1cc",
+    "value": "12,8 %",
+    "label": "abandono educativo temprano · 2025",
+    "text": "El aprendizaje alimenta el capital humano. Importan la continuidad educativa, la formación profesional y el uso de la información de inserción que ya existe.",
+    "action": "Mejorar la formación en empresa y ampliar QEDU, que ya publica inserción universitaria.",
+    "caution": "Contratos temporales y personas con empleo temporal son indicadores distintos.",
+    "source": "Ministerio de Educación",
+    "url": "https://www.educacionfpydeportes.gob.es/dam/jcr%3Ab410eba9-18b7-44d5-b6ad-f1c69069d75e/1-3-6-tabla-1-abandono-nivel-de-formaci-n-2025.pdf",
+    "icon": "GraduationCap",
+    "diagnosis": [
+      "Aprendizaje, continuidad educativa y capacidades a lo largo de la vida.",
+      "QEDU ya ofrece inserción universitaria; es necesario explicar cobertura y qué mide cada indicador."
+    ],
+    "chain": [
+      "Aprendizaje",
+      "Capacidades",
+      "Inserción y adaptación",
+      "Formación continua"
+    ],
+    "measures": [
+      "Mejorar tutoría y calidad de la formación profesional.",
+      "Ampliar uso y comparabilidad de información de resultados."
+    ],
+    "risks": [
+      "Rankings que reflejen selección de alumnado y no valor añadido.",
+      "Confundir bases de cotización con salarios completos."
+    ],
+    "indicators": [
+      "Abandono educativo",
+      "Aprendizaje contextualizado",
+      "Inserción por titulación y perfil"
+    ],
+    "sourceIds": ["S15", "S16", "S17"],
+    "actors": "Educación, centros y universidades",
+    "horizon": "2–5 años en programas; mayor plazo en cohortes",
+    "cost": "Personal y evaluación; financiación recurrente",
+    "related": ["empleo", "innovacion"],
+    "x": 50,
+    "y": 30,
+    "isNew": false
+  },
+  {
+    "id": "energia",
+    "title": "Energía",
+    "color": "#d6ec6b",
+    "value": "55,5 %",
+    "label": "electricidad renovable · 2025",
+    "text": "La generación renovable es una ventaja que necesita redes, almacenamiento y demanda flexible para convertirse en capacidad útil.",
+    "action": "Desbloquear red y almacenamiento con prioridades transparentes y demanda flexible.",
+    "caution": "Récord de producción renovable, pero su cuota bajó desde el 56,8 % de 2024.",
+    "source": "Red Eléctrica",
+    "url": "https://www.sistemaelectrico-ree.es/es/informe-del-sistema-electrico/generacion/generacion-de-energia-electrica/generacion-renovable-de-energia-electrica",
+    "icon": "Zap",
+    "diagnosis": [
+      "Generación, redes, almacenamiento y demanda flexible.",
+      "La electricidad producida debe poder transportarse y usarse cuando se necesita."
+    ],
+    "chain": [
+      "Renovables",
+      "Red y flexibilidad",
+      "Energía utilizable",
+      "Actividad productiva"
+    ],
+    "measures": [
+      "Priorizar conexiones viables y almacenamiento útil.",
+      "Evaluar costes finales, mantenimiento e impacto local."
+    ],
+    "risks": [
+      "Equiparar cuota renovable con toda la energía o con factura barata.",
+      "Acumular permisos sin ejecutar proyectos."
+    ],
+    "indicators": [
+      "Congestión y vertidos",
+      "Capacidad de conexión útil",
+      "Coste final y continuidad"
+    ],
+    "sourceIds": ["S12", "S18"],
+    "actors": "Operadores, reguladores y administraciones",
+    "horizon": "2–6 años de planificación",
+    "cost": "Inversión alta; reparto tarifario y territorial",
+    "related": ["productividad", "agua"],
+    "x": 82,
+    "y": 30,
+    "isNew": false
+  },
+  {
+    "id": "empleo",
+    "title": "Empleo",
+    "icon": "BriefcaseBusiness",
+    "color": "#efbe57",
+    "value": "59,26 %",
+    "label": "contratos temporales a menores de 30 · 2025",
+    "text": "El empleo conecta renta, aprendizaje y protección social. La estabilidad no se mide solo por la etiqueta del contrato.",
+    "action": "Evaluar continuidad, horas y salarios; orientar formación e intermediación a barreras concretas.",
+    "caution": "La cifra mide contratos registrados, no personas asalariadas temporales.",
+    "source": "SEPE, jóvenes 2026, datos 2025",
+    "url": "https://www.sepe.es/dctm/informes%3A09019af4802688d5/RElTRVdFQg%3D%3D/4676-701.pdf",
+    "diagnosis": [
+      "Participación, búsqueda, contratación, horas, remuneración y continuidad.",
+      "Una persona puede firmar varios contratos: el flujo de contratos y el stock de trabajadores no son intercambiables."
+    ],
+    "chain": [
+      "Capacidades y demanda",
+      "Empleo sostenido",
+      "Renta del hogar",
+      "Consumo y autonomía"
+    ],
+    "measures": [
+      "Evaluar formación e intermediación por resultados posteriores.",
+      "Identificar barreras de cuidados, movilidad y cualificación."
+    ],
+    "risks": [
+      "Medir éxito solo por contratos firmados.",
+      "Desplazar empleo existente mediante ayudas sin adicionalidad."
+    ],
+    "indicators": [
+      "Empleo a 6, 12 y 24 meses",
+      "Horas y remuneración",
+      "Transiciones entre empleo e inactividad"
+    ],
+    "sourceIds": ["S07", "S17", "S21"],
+    "actors": "Servicios de empleo, empresas y agentes sociales",
+    "horizon": "1–5 años",
+    "cost": "Servicios recurrentes; seguimiento administrativo",
+    "related": [
+      "productividad",
+      "educacion",
+      "sanidad",
+      "cuidados",
+      "movilidad",
+      "pensiones"
+    ],
+    "x": 18,
+    "y": 47,
+    "isNew": false
+  },
+  {
+    "id": "agua",
+    "title": "Agua y clima",
+    "icon": "Droplets",
+    "color": "#efbe57",
+    "value": "Por cuenca",
+    "label": "la escala para gestionar el recurso",
+    "text": "La sequía afecta agricultura, abastecimiento, ecosistemas y energía. Una media nacional oculta restricciones locales.",
+    "action": "Medir extracciones, reducir pérdidas y evaluar reutilización dentro de límites ambientales.",
+    "caution": "Ahorrar agua por hectárea no garantiza ahorrar agua total.",
+    "source": "Oficina C/FECYT, sequía",
+    "url": "https://oficinac.es/sites/default/files/informes/2025_10_30_InformeC-Sequia-oficinac-fecyt-congreso.pdf",
+    "diagnosis": [
+      "Agua superficial, acuíferos, usos y ecosistemas por cuenca.",
+      "La eficiencia por unidad puede coexistir con más extracción si aumentan superficie o intensidad."
+    ],
+    "chain": [
+      "Escasez",
+      "Respuesta de usuarios",
+      "Extracción total",
+      "Estado de la cuenca"
+    ],
+    "measures": [
+      "Medir extracción y retornos con límites efectivos.",
+      "Comparar reutilización, reducción de pérdidas y desalación por coste e impacto."
+    ],
+    "risks": [
+      "Efecto rebote de la modernización.",
+      "Trasladar costes a pequeñas explotaciones sin alternativas."
+    ],
+    "indicators": [
+      "Extracción y retorno",
+      "Estado de acuíferos",
+      "Caudal ecológico y resiliencia"
+    ],
+    "sourceIds": ["S13", "S23", "S32"],
+    "actors": "Organismos de cuenca, CCAA y usuarios",
+    "horizon": "1–8 años",
+    "cost": "Infraestructura, operación y transición social",
+    "related": ["energia", "agro", "turismo"],
+    "x": 50,
+    "y": 47,
+    "isNew": false
+  },
+  {
+    "id": "sanidad",
+    "title": "Sanidad",
+    "icon": "HeartPulse",
+    "color": "#efbe57",
+    "value": "Acceso efectivo",
+    "label": "prevención, atención primaria y continuidad",
+    "text": "La salud sostiene autonomía, aprendizaje y trabajo. El diagnóstico debe mirar necesidades y capacidad de atención, no solo gasto total.",
+    "action": "Reforzar continuidad asistencial y planificación de profesionales con resultados por territorio.",
+    "caution": "El informe SNS 2024 recoge principalmente datos de 2023 y algunos de 2024.",
+    "source": "Sanidad · Informe anual SNS 2024",
+    "url": "https://www.sanidad.gob.es/estadEstudios/estadisticas/sisInfSanSNS/tablasEstadisticas/InfAnSNS.htm",
+    "diagnosis": [
+      "Prevención, atención primaria, hospitales, salud mental y profesionales.",
+      "El acceso oportuno y la continuidad ayudan a sostener autonomía; más actividad no equivale siempre a mejor salud."
+    ],
+    "chain": [
+      "Necesidades de salud",
+      "Atención y seguimiento",
+      "Autonomía",
+      "Participación social y laboral"
+    ],
+    "measures": [
+      "Planificar equipos por necesidades y territorio.",
+      "Evaluar continuidad entre niveles asistenciales y prevención."
+    ],
+    "risks": [
+      "Reducir listas seleccionando casos sencillos.",
+      "Usar gasto o número de consultas como única medida de calidad."
+    ],
+    "indicators": [
+      "Acceso por necesidad y territorio",
+      "Espera por especialidad",
+      "Continuidad y resultados en salud"
+    ],
+    "sourceIds": ["S26", "S18"],
+    "actors": "Servicios autonómicos de salud y coordinación estatal",
+    "horizon": "1–5 años; formación profesional a mayor plazo",
+    "cost": "Personal recurrente y equipamiento; proteger equidad",
+    "related": ["cuidados", "empleo"],
+    "x": 82,
+    "y": 47,
+    "isNew": true
+  },
+  {
+    "id": "cuidados",
+    "title": "Cuidados",
+    "icon": "HandHeart",
+    "color": "#efbe57",
+    "value": "Tiempo y apoyo",
+    "label": "dependencia, autonomía y conciliación",
+    "text": "Los cuidados formales e informales permiten sostener hogares y participar en el empleo. Reconocer una ayuda no equivale a recibirla.",
+    "action": "Acortar el recorrido hasta la prestación efectiva y profesionalizar servicios de proximidad.",
+    "caution": "Separar espera de valoración, de resolución y de acceso al servicio.",
+    "source": "Imserso · balance SAAD diciembre 2025",
+    "url": "https://imserso.es/detalle-actualidad/-/asset_publisher/n1oS8lWfrx6m/content/la-lista-de-espera-de-la-dependencia-baja-casi-un-20-en-un-ano-y-registra-un-maximo-historico-de-personas-atendidas/20123",
+    "diagnosis": [
+      "Atención domiciliaria, centros, apoyos personales y cuidado no remunerado.",
+      "Una prestación reconocida puede tardar en hacerse efectiva; hay que medir todo el recorrido."
+    ],
+    "chain": [
+      "Necesidad de apoyo",
+      "Servicios disponibles",
+      "Tiempo de las familias",
+      "Autonomía y empleo"
+    ],
+    "measures": [
+      "Ampliar servicios de proximidad con calidad y personal formado.",
+      "Reducir demoras entre solicitud y atención efectiva."
+    ],
+    "risks": [
+      "Sustituir servicios por prestaciones insuficientes.",
+      "Ocultar carga de cuidados no remunerados y desigualdad de género."
+    ],
+    "indicators": [
+      "Tiempo hasta atención efectiva",
+      "Intensidad y calidad del apoyo",
+      "Carga de cuidados y participación laboral"
+    ],
+    "sourceIds": ["S27", "S21", "S26"],
+    "actors": "CCAA, servicios sociales, entidades locales y Estado",
+    "horizon": "1–5 años",
+    "cost": "Gasto recurrente intensivo en personal",
+    "related": ["demografia", "sanidad", "empleo", "pensiones"],
+    "x": 18,
+    "y": 64,
+    "isNew": true
+  },
+  {
+    "id": "instituciones",
+    "title": "Justicia e instituciones",
+    "icon": "Scale",
+    "color": "#efbe57",
+    "value": "Capacidad",
+    "label": "reglas claras y ejecución fiable",
+    "text": "La resolución de conflictos y la capacidad administrativa condicionan contratos, inversiones y acceso a derechos.",
+    "action": "Medir demoras por procedimiento y reforzar equipos, interoperabilidad y rendición de cuentas.",
+    "caution": "La estadística judicial no mide por sí sola corrupción, independencia o confianza.",
+    "source": "CGPJ · Justicia Dato a Dato",
+    "url": "https://www.poderjudicial.es/cgpj/es/Temas/Estadistica-Judicial/Estudios-e-Informes/Justicia-Dato-a-Dato/",
+    "diagnosis": [
+      "Justicia, coordinación administrativa y ejecución de reglas.",
+      "La estadística judicial permite observar actividad y congestión; no resume por sí sola toda la calidad institucional."
+    ],
+    "chain": [
+      "Reglas y capacidad",
+      "Resolución de expedientes",
+      "Previsibilidad",
+      "Acceso a derechos e inversión"
+    ],
+    "measures": [
+      "Reforzar equipos donde el diagnóstico muestre cuellos de botella.",
+      "Publicar plazos, calidad y resultados por procedimiento."
+    ],
+    "risks": [
+      "Acelerar a costa de garantías o calidad.",
+      "Atribuir automáticamente demoras a una única causa política."
+    ],
+    "indicators": [
+      "Duración por procedimiento",
+      "Pendencia y resolución",
+      "Calidad y acceso efectivo"
+    ],
+    "sourceIds": ["S28", "S24"],
+    "actors": "Órganos judiciales y administraciones competentes",
+    "horizon": "1–5 años",
+    "cost": "Gestión, personal e interoperabilidad",
+    "related": ["vivienda", "productividad"],
+    "x": 50,
+    "y": 64,
+    "isNew": true
+  },
+  {
+    "id": "movilidad",
+    "title": "Movilidad",
+    "icon": "TrainFront",
+    "color": "#efbe57",
+    "value": "Accesibilidad",
+    "label": "llegar a empleo y servicios",
+    "text": "Una conexión útil amplía las oportunidades de vivir y trabajar. Kilómetros de infraestructura no equivalen a servicio fiable.",
+    "action": "Priorizar mantenimiento, frecuencia e integración del transporte en áreas funcionales.",
+    "caution": "La edición del informe y el año de cada indicador no siempre coinciden.",
+    "source": "Transportes · OTLE, informe anual 2024",
+    "url": "https://cdn.transportes.gob.es/portal-web-drupal/OTLE/elementos_otle/informe_anual_2024_%28abril_2025%29.pdf",
+    "diagnosis": [
+      "Servicios, redes, mantenimiento y acceso a destinos.",
+      "La utilidad de una línea depende de frecuencia, fiabilidad, precio y conexiones, no solo de su longitud."
+    ],
+    "chain": [
+      "Transporte útil",
+      "Acceso a empleo y servicios",
+      "Opciones residenciales",
+      "Actividad territorial"
+    ],
+    "measures": [
+      "Priorizar mantenimiento e integración de servicios.",
+      "Evaluar accesibilidad en áreas urbanas y rurales antes de ampliar infraestructura."
+    ],
+    "risks": [
+      "Construir capacidad poco utilizada.",
+      "Desplazar demanda sin mejorar tiempos reales puerta a puerta."
+    ],
+    "indicators": [
+      "Tiempo puerta a puerta",
+      "Frecuencia y fiabilidad",
+      "Acceso a servicios y coste por usuario"
+    ],
+    "sourceIds": ["S29", "S01"],
+    "actors": "Administraciones y operadores de transporte",
+    "horizon": "1–6 años",
+    "cost": "Operación recurrente e inversión; analizar coste de oportunidad",
+    "related": ["vivienda", "empleo", "agro"],
+    "x": 82,
+    "y": 64,
+    "isNew": true
+  },
+  {
+    "id": "turismo",
+    "title": "Turismo",
+    "icon": "Compass",
+    "color": "#efbe57",
+    "value": "12,6 %",
+    "label": "PIB asociado al turismo · 2024, avance",
+    "text": "El turismo genera actividad y empleo, y se relaciona con vivienda, agua y movilidad en los destinos.",
+    "action": "Medir valor local, estabilidad del empleo y presión sobre recursos; gestionar por destino y temporada.",
+    "caution": "Aportación al PIB no equivale a beneficio neto ni a efecto causal sobre vivienda.",
+    "source": "INE · Cuenta Satélite del Turismo 2024",
+    "url": "https://www.ine.es/dyngs/Prensa/CSTE2024.htm",
+    "diagnosis": [
+      "Demanda turística, alojamiento, servicios y empleo por destino.",
+      "El peso económico no resume los costes y beneficios distribuidos entre residentes, trabajadores y visitantes."
+    ],
+    "chain": [
+      "Visitantes",
+      "Actividad y empleo",
+      "Demanda de servicios",
+      "Presión local sobre recursos"
+    ],
+    "measures": [
+      "Gestionar capacidad por destino y temporada.",
+      "Evaluar estabilidad laboral, valor local y presión residencial."
+    ],
+    "risks": [
+      "Confundir más visitantes con mayor bienestar local.",
+      "Extrapolar un efecto sobre vivienda a todos los destinos."
+    ],
+    "indicators": [
+      "Valor añadido y empleo estable",
+      "Estacionalidad",
+      "Presión de vivienda, agua y movilidad"
+    ],
+    "sourceIds": ["S30", "S25", "S13"],
+    "actors": "Destinos, CCAA, empresas y administración turística",
+    "horizon": "1–5 años",
+    "cost": "Gestión y servicios; reparto entre visitantes y residentes",
+    "related": ["vivienda", "agua"],
+    "x": 18,
+    "y": 81,
+    "isNew": true
+  },
+  {
+    "id": "innovacion",
+    "title": "Ciencia e innovación",
+    "icon": "FlaskConical",
+    "color": "#efbe57",
+    "value": "1,50 %",
+    "label": "gasto en I+D interna / PIB · 2024",
+    "text": "La investigación crea conocimiento. Su difusión hacia empresas y servicios depende de capacidades, financiación y organización.",
+    "action": "Dar continuidad a equipos y evaluar transferencia, adopción tecnológica y resultados.",
+    "caution": "Más gasto es un insumo; no garantiza por sí solo innovación útil.",
+    "source": "INE · Actividades de I+D 2024",
+    "url": "https://www.ine.es/dyngs/Prensa/IMASD2024.htm",
+    "diagnosis": [
+      "Investigación, talento, transferencia y adopción tecnológica.",
+      "El gasto en I+D mide recursos empleados. Los resultados requieren tiempo y no se distribuyen igual entre sectores."
+    ],
+    "chain": [
+      "Investigación",
+      "Conocimiento",
+      "Adopción y transferencia",
+      "Nuevas capacidades"
+    ],
+    "measures": [
+      "Dar continuidad a equipos y facilitar colaboración.",
+      "Evaluar adopción y resultados, además de gasto y patentes."
+    ],
+    "risks": [
+      "Financiación volátil y proyectos sin continuidad.",
+      "Confundir patentes o publicaciones con impacto económico inmediato."
+    ],
+    "indicators": [
+      "Gasto y personal en I+D",
+      "Continuidad de equipos",
+      "Adopción y resultados de transferencia"
+    ],
+    "sourceIds": ["S31", "S17", "S08"],
+    "actors": "Centros, universidades, empresas y administraciones",
+    "horizon": "3–10 años, variable por tecnología",
+    "cost": "Financiación plurianual y evaluación independiente",
+    "related": ["productividad", "educacion"],
+    "x": 50,
+    "y": 81,
+    "isNew": true
+  },
+  {
+    "id": "agro",
+    "title": "Alimentación y campo",
+    "icon": "Wheat",
+    "color": "#efbe57",
+    "value": "Cadena completa",
+    "label": "agricultura, pesca, industria y distribución",
+    "text": "La alimentación conecta recursos naturales, renta rural, industria y precios para el hogar. Las etapas de la cadena tienen riesgos diferentes.",
+    "action": "Mejorar resiliencia, relevo y transparencia de costes con límites de agua y conservación del suelo.",
+    "caution": "No confundir facturación, valor añadido, renta agraria y precio al consumidor.",
+    "source": "MAPA · Indicadores agricultura, pesca y alimentación",
+    "url": "https://www.mapa.gob.es/es/ministerio/servicios/analisis-y-prospectiva/serie-indicadores/indicadores_semestre",
+    "diagnosis": [
+      "Producción agraria y pesquera, transformación, logística y distribución.",
+      "Agua, suelo, energía y mercados condicionan costes; las rentas y riesgos se reparten de forma desigual por eslabón."
+    ],
+    "chain": [
+      "Recursos e insumos",
+      "Producción",
+      "Transformación y distribución",
+      "Alimentos y renta territorial"
+    ],
+    "measures": [
+      "Mejorar resiliencia y relevo con capacitación y acceso a recursos.",
+      "Evaluar costes, competencia y conservación en toda la cadena."
+    ],
+    "risks": [
+      "Aumentar producción deteriorando agua o suelo.",
+      "Confundir margen comercial con beneficio neto o atribuir precios a un solo actor."
+    ],
+    "indicators": [
+      "Renta y costes por eslabón",
+      "Resiliencia y uso de recursos",
+      "Relevo y acceso a alimentos"
+    ],
+    "sourceIds": ["S32", "S13", "S23"],
+    "actors": "Productores, industria, distribución y administraciones",
+    "horizon": "2–8 años",
+    "cost": "Inversión y gestión de riesgos; transición territorial",
+    "related": ["agua", "movilidad"],
+    "x": 82,
+    "y": 81,
+    "isNew": true
+  }
+]
