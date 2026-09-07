@@ -34,22 +34,11 @@
       "Esfuerzo de alquiler por renta",
       "Tiempo de licencia, mediana y P90"
     ],
-    "sourceIds": [
-      "S01",
-      "S06",
-      "S19",
-      "S20",
-      "S25"
-    ],
+    "sourceIds": ["S01", "S06", "S19", "S20", "S25"],
     "actors": "Ayuntamientos, CCAA y Estado",
     "horizon": "2–10 años; protección desde el inicio",
     "cost": "Inversión alta y mantenimiento; evaluar suelo y financiación",
-    "related": [
-      "demografia",
-      "movilidad",
-      "turismo",
-      "instituciones"
-    ],
+    "related": ["demografia", "movilidad", "turismo", "instituciones"],
     "x": 18,
     "y": 13,
     "isNew": false
@@ -89,20 +78,11 @@
       "Emancipación y bienestar",
       "Empleo y acceso a servicios por origen"
     ],
-    "sourceIds": [
-      "S02",
-      "S04",
-      "S05",
-      "S21"
-    ],
+    "sourceIds": ["S02", "S04", "S05", "S21"],
     "actors": "Estado, CCAA y servicios locales",
     "horizon": "1–5 años en servicios; décadas en estructura demográfica",
     "cost": "Gasto recurrente; efectos distributivos heterogéneos",
-    "related": [
-      "vivienda",
-      "pensiones",
-      "cuidados"
-    ],
+    "related": ["vivienda", "pensiones", "cuidados"],
     "x": 50,
     "y": 13,
     "isNew": false
@@ -142,20 +122,11 @@
       "Inversión adicional",
       "Salarios y difusión entre empresas"
     ],
-    "sourceIds": [
-      "S08",
-      "S17",
-      "S31"
-    ],
+    "sourceIds": ["S08", "S17", "S31"],
     "actors": "Empresas, organismos económicos y financiadores",
     "horizon": "1–5 años; aprendizaje acumulativo",
     "cost": "Cofinanciación y capacidades; evitar subsidios permanentes",
-    "related": [
-      "empleo",
-      "innovacion",
-      "energia",
-      "instituciones"
-    ],
+    "related": ["empleo", "innovacion", "energia", "instituciones"],
     "x": 82,
     "y": 13,
     "isNew": false
@@ -195,20 +166,11 @@
       "Saldo primario y deuda/PIB",
       "Incidencia por renta y generación"
     ],
-    "sourceIds": [
-      "S09",
-      "S10",
-      "S11",
-      "S18"
-    ],
+    "sourceIds": ["S09", "S10", "S11", "S18"],
     "actors": "Estado, diálogo social y evaluación AIReF",
     "horizon": "Transición de 1–15 años",
     "cost": "Presentar ahorro, ingresos y compensaciones por separado",
-    "related": [
-      "demografia",
-      "empleo",
-      "cuidados"
-    ],
+    "related": ["demografia", "empleo", "cuidados"],
     "x": 18,
     "y": 30,
     "isNew": false
@@ -248,18 +210,11 @@
       "Aprendizaje contextualizado",
       "Inserción por titulación y perfil"
     ],
-    "sourceIds": [
-      "S15",
-      "S16",
-      "S17"
-    ],
+    "sourceIds": ["S15", "S16", "S17"],
     "actors": "Educación, centros y universidades",
     "horizon": "2–5 años en programas; mayor plazo en cohortes",
     "cost": "Personal y evaluación; financiación recurrente",
-    "related": [
-      "empleo",
-      "innovacion"
-    ],
+    "related": ["empleo", "innovacion"],
     "x": 50,
     "y": 30,
     "isNew": false
@@ -299,17 +254,11 @@
       "Capacidad de conexión útil",
       "Coste final y continuidad"
     ],
-    "sourceIds": [
-      "S12",
-      "S18"
-    ],
+    "sourceIds": ["S12", "S18"],
     "actors": "Operadores, reguladores y administraciones",
     "horizon": "2–6 años de planificación",
     "cost": "Inversión alta; reparto tarifario y territorial",
-    "related": [
-      "productividad",
-      "agua"
-    ],
+    "related": ["productividad", "agua"],
     "x": 82,
     "y": 30,
     "isNew": false
@@ -349,11 +298,7 @@
       "Horas y remuneración",
       "Transiciones entre empleo e inactividad"
     ],
-    "sourceIds": [
-      "S07",
-      "S17",
-      "S21"
-    ],
+    "sourceIds": ["S07", "S17", "S21"],
     "actors": "Servicios de empleo, empresas y agentes sociales",
     "horizon": "1–5 años",
     "cost": "Servicios recurrentes; seguimiento administrativo",
@@ -404,19 +349,11 @@
       "Estado de acuíferos",
       "Caudal ecológico y resiliencia"
     ],
-    "sourceIds": [
-      "S13",
-      "S23",
-      "S32"
-    ],
+    "sourceIds": ["S13", "S23", "S32"],
     "actors": "Organismos de cuenca, CCAA y usuarios",
     "horizon": "1–8 años",
     "cost": "Infraestructura, operación y transición social",
-    "related": [
-      "energia",
-      "agro",
-      "turismo"
-    ],
+    "related": ["energia", "agro", "turismo"],
     "x": 50,
     "y": 47,
     "isNew": false
@@ -456,17 +393,11 @@
       "Espera por especialidad",
       "Continuidad y resultados en salud"
     ],
-    "sourceIds": [
-      "S26",
-      "S18"
-    ],
+    "sourceIds": ["S26", "S18"],
     "actors": "Servicios autonómicos de salud y coordinación estatal",
     "horizon": "1–5 años; formación profesional a mayor plazo",
     "cost": "Personal recurrente y equipamiento; proteger equidad",
-    "related": [
-      "cuidados",
-      "empleo"
-    ],
+    "related": ["cuidados", "empleo"],
     "x": 82,
     "y": 47,
     "isNew": true
@@ -506,20 +437,11 @@
       "Intensidad y calidad del apoyo",
       "Carga de cuidados y participación laboral"
     ],
-    "sourceIds": [
-      "S27",
-      "S21",
-      "S26"
-    ],
+    "sourceIds": ["S27", "S21", "S26"],
     "actors": "CCAA, servicios sociales, entidades locales y Estado",
     "horizon": "1–5 años",
     "cost": "Gasto recurrente intensivo en personal",
-    "related": [
-      "demografia",
-      "sanidad",
-      "empleo",
-      "pensiones"
-    ],
+    "related": ["demografia", "sanidad", "empleo", "pensiones"],
     "x": 18,
     "y": 64,
     "isNew": true
@@ -559,17 +481,11 @@
       "Pendencia y resolución",
       "Calidad y acceso efectivo"
     ],
-    "sourceIds": [
-      "S28",
-      "S24"
-    ],
+    "sourceIds": ["S28", "S24"],
     "actors": "Órganos judiciales y administraciones competentes",
     "horizon": "1–5 años",
     "cost": "Gestión, personal e interoperabilidad",
-    "related": [
-      "vivienda",
-      "productividad"
-    ],
+    "related": ["vivienda", "productividad"],
     "x": 50,
     "y": 64,
     "isNew": true
@@ -609,18 +525,11 @@
       "Frecuencia y fiabilidad",
       "Acceso a servicios y coste por usuario"
     ],
-    "sourceIds": [
-      "S29",
-      "S01"
-    ],
+    "sourceIds": ["S29", "S01"],
     "actors": "Administraciones y operadores de transporte",
     "horizon": "1–6 años",
     "cost": "Operación recurrente e inversión; analizar coste de oportunidad",
-    "related": [
-      "vivienda",
-      "empleo",
-      "agro"
-    ],
+    "related": ["vivienda", "empleo", "agro"],
     "x": 82,
     "y": 64,
     "isNew": true
@@ -660,18 +569,11 @@
       "Estacionalidad",
       "Presión de vivienda, agua y movilidad"
     ],
-    "sourceIds": [
-      "S30",
-      "S25",
-      "S13"
-    ],
+    "sourceIds": ["S30", "S25", "S13"],
     "actors": "Destinos, CCAA, empresas y administración turística",
     "horizon": "1–5 años",
     "cost": "Gestión y servicios; reparto entre visitantes y residentes",
-    "related": [
-      "vivienda",
-      "agua"
-    ],
+    "related": ["vivienda", "agua"],
     "x": 18,
     "y": 81,
     "isNew": true
@@ -711,18 +613,11 @@
       "Continuidad de equipos",
       "Adopción y resultados de transferencia"
     ],
-    "sourceIds": [
-      "S31",
-      "S17",
-      "S08"
-    ],
+    "sourceIds": ["S31", "S17", "S08"],
     "actors": "Centros, universidades, empresas y administraciones",
     "horizon": "3–10 años, variable por tecnología",
     "cost": "Financiación plurianual y evaluación independiente",
-    "related": [
-      "productividad",
-      "educacion"
-    ],
+    "related": ["productividad", "educacion"],
     "x": 50,
     "y": 81,
     "isNew": true
@@ -762,18 +657,11 @@
       "Resiliencia y uso de recursos",
       "Relevo y acceso a alimentos"
     ],
-    "sourceIds": [
-      "S32",
-      "S13",
-      "S23"
-    ],
+    "sourceIds": ["S32", "S13", "S23"],
     "actors": "Productores, industria, distribución y administraciones",
     "horizon": "2–8 años",
     "cost": "Inversión y gestión de riesgos; transición territorial",
-    "related": [
-      "agua",
-      "movilidad"
-    ],
+    "related": ["agua", "movilidad"],
     "x": 82,
     "y": 81,
     "isNew": true

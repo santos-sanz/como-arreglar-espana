@@ -1228,3 +1228,4 @@ footer a {
     font-size: 12px;
   }
 }
+.node > span:nth-child(2){max-width:100%;overflow-wrap:anywhere}
