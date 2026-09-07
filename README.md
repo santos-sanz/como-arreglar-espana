@@ -4,6 +4,8 @@ Análisis independiente preparado para Andrés Santos Sanz. **Revisión de fuent
 
 España combina avances reales con dificultades persistentes para acceder a vivienda, formar un hogar y mejorar la renta por persona. Vivienda, empleo, productividad, demografía, pensiones, energía y agua se influyen entre sí. Estudiar esas conexiones ayuda a diseñar políticas; no permite atribuir todos los problemas a una sola causa ni prometer resultados sin medirlos.
 
+**[Abrir la web en Sites](https://como-arreglar-espana.santossanzandres.chatgpt.site)** · Publicada con acceso privado para la cuenta propietaria.
+
 **Lecturas:** [auditoría del contenido original](docs/crosscheck.md) · [análisis ampliado y evaluación de políticas](docs/analisis-ampliado.md) · [fuentes y método](docs/fuentes.md) · [original histórico, sin corregir](docs/analisis-original.md). La web está en [`web/`](web/).
 
 ## 1. Qué sabemos y de cuándo es cada dato
