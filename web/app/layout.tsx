@@ -14,7 +14,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: 'Cómo arreglar España · Un país conectado',
-  description: 'Explora las conexiones entre vivienda, demografía, productividad, pensiones, educación y energía con datos y fuentes contrastadas.',
+  description:
+    'Explora las conexiones entre vivienda, demografía, productividad, pensiones, educación y energía con datos y fuentes contrastadas.',
 };
 
 export default function RootLayout({
