@@ -6,6 +6,8 @@ España combina avances reales con dificultades persistentes para acceder a vivi
 
 **[Abrir la web en Sites](https://como-arreglar-espana.santossanzandres.chatgpt.site)** · Publicada con acceso público.
 
+**[Ver el diagrama revisado](https://como-arreglar-espana.santossanzandres.chatgpt.site/#diagrama)** · Ampliación, descarga y lectura de los tres bucles. [Criterios de revisión](docs/revision-diagrama.md).
+
 **[Explorar los 15 subsistemas](docs/subsistemas.md)** · Fichas individuales con diagnóstico, mecanismos, propuestas, riesgos e indicadores.
 
 **[CPS y otras comunidades](docs/analisis-comunidad.md)** · Seis lecturas comentadas, incorporadas el 8 de septiembre de 2026.

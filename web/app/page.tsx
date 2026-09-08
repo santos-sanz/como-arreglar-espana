@@ -256,8 +256,8 @@ export default function Page() {
                 </Button>
               ))}
             </div>
-            <a className="text-link" href="#evidencia">
-              Ver qué sostiene el análisis <ArrowDown size={16} />
+            <a className="text-link" href="#diagrama">
+              Ver el diagrama completo <ArrowDown size={16} />
             </a>
           </article>
         </div>
