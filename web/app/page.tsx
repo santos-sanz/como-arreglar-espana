@@ -18,6 +18,7 @@ import {
 } from '@/components/ui/accordion';
 import sources from './sources.json';
 import community from './community.json';
+import SystemDiagram from './system-diagram';
 import {
   ArrowUpRight,
   ArrowDown,
@@ -261,6 +262,7 @@ export default function Page() {
           </article>
         </div>
       </section>
+      <SystemDiagram />
       <section id="evidencia" className="evidence">
         <div className="section-top">
           <h2>
