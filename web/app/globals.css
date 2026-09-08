@@ -1245,3 +1245,21 @@ footer a {
 .reading-body p { margin: 0 0 14px; }
 .modal-scroll .community-readings { grid-template-columns: 1fr; }
 @media (max-width: 700px) { .community-readings { grid-template-columns: 1fr; } }
+
+.system-diagram { padding: 64px 4%; border-top: 1px solid #405673; }
+.system-diagram > p { max-width: 900px; font-size: 1rem; line-height: 1.7; margin: 20px 0; }
+.diagram-tools { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin: 24px 0 16px; }
+.diagram-tools button { border: 1px solid #60708a; padding: 10px 16px; border-radius: 6px; cursor: pointer; font-size: 1rem; }
+.diagram-tools button[aria-pressed='true'] { background: #f4cf65; color: #101a30; border-color: #f4cf65; }
+.diagram-tools a, .diagram-reference a { color: #f4cf65; text-decoration: underline; text-underline-offset: 4px; }
+.diagram-tools a { padding: 10px 4px; }
+.diagram-viewport { overflow: auto; max-height: 85vh; border: 1px solid #60708a; border-radius: 6px; background: #fff; }
+.diagram-viewport img { display: block; }
+.diagram-viewport:focus-visible, .diagram-tools button:focus-visible { outline: 3px solid #f4cf65; outline-offset: 4px; }
+.system-diagram figcaption { font-size: .875rem; line-height: 1.7; margin: 14px 0; color: #c0cde1; }
+.diagram-loops { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; margin: 28px 0; }
+.diagram-loops article { padding: 22px; background: #192843; border-top: 3px solid #f4cf65; border-radius: 6px; }
+.diagram-loops h3 { font-size: 1.2rem; line-height: 1.4; margin-bottom: 16px; }
+.diagram-loops p { font-size: 1rem; line-height: 1.7; margin: 12px 0; }
+.loop-chain { color: #f4cf65; }
+@media (max-width: 850px) { .diagram-loops { grid-template-columns: 1fr; } }
