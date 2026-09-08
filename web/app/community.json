@@ -1,0 +1,80 @@
+[
+  {
+    "id": "C01",
+    "title": "Abordar problemas aparentemente imposibles",
+    "author": "Javier G. Recuenco",
+    "community": "Comunidad CPS · El Turrero Post",
+    "date": "2021-12-11",
+    "kind": "Marco y opinión",
+    "url": "https://turrero.vercel.app/turra/1469583161357221889",
+    "topics": ["instituciones", "demografia"],
+    "summary": "Plantea un trabajo adaptado a cada problema y menciona la España vaciada y la reconversión sectorial como retos que requieren combinar perspectivas.",
+    "application": "Antes de escoger medidas, describir actores, bloqueos y condiciones de éxito en cada territorio.",
+    "limit": "Es un planteamiento metodológico; no publica una evaluación de impacto ni un plan territorial presupuestado."
+  },
+  {
+    "id": "C02",
+    "title": "Reconversión industrial y sus costes humanos",
+    "author": "Javier G. Recuenco",
+    "community": "Comunidad CPS · El Turrero Post",
+    "date": "2025-05-24",
+    "kind": "Ensayo y casos ilustrativos",
+    "url": "https://turrero.vercel.app/turra/1926142175105995150",
+    "topics": ["productividad", "empleo", "instituciones"],
+    "summary": "Relaciona obsolescencia tecnológica, cambio de demanda y resistencia a transformar empresas. Examina consecuencias sociales mediante ejemplos industriales, principalmente estadounidenses.",
+    "application": "Evaluar una reconversión por nuevas oportunidades laborales y capacidad de adaptación, además de por supervivencia empresarial.",
+    "limit": "Los casos ilustran mecanismos; no estiman su efecto en España. El propio hilo anuncia análisis españoles posteriores."
+  },
+  {
+    "id": "C03",
+    "title": "Talento, incentivos y continuidad de la investigación",
+    "author": "Víctor R. Escobar",
+    "community": "Comunidad CPS · El Turrero Post",
+    "date": "2025-03-25",
+    "kind": "Hipótesis sistémica",
+    "url": "https://turrero.vercel.app/turra/1905877658904183080",
+    "topics": ["educacion", "innovacion", "productividad"],
+    "summary": "Conecta atención a las altas capacidades, incentivos y expectativas de financiación con las trayectorias del talento y de la investigación.",
+    "application": "Incluir continuidad de equipos y oportunidades de desarrollo al evaluar educación e I+D.",
+    "limit": "No demuestra una relación causal entre CI y prosperidad nacional. Las cifras de acoso y las generalizaciones requieren verificar el estudio y su muestra."
+  },
+  {
+    "id": "C04",
+    "title": "Hogares sin techos: la escasez donde hay oportunidades",
+    "author": "Jorge Galindo",
+    "community": "Nada es Gratis · autor de Esade EcPol",
+    "date": "2025-10-20",
+    "kind": "Síntesis de investigación y propuesta",
+    "url": "https://nadaesgratis.es/admin/hogares-sin-techos-escapar-de-la-escasez-de-oferta-de-vivienda-en-espana",
+    "topics": ["vivienda", "movilidad", "turismo"],
+    "summary": "Vincula vivienda, concentración del empleo y productividad urbana. Defiende ampliar oferta donde existe demanda y estudiar los incentivos y creencias que frenan nuevos barrios.",
+    "application": "Analizar vivienda junto a transporte, servicios y barreras locales; medir acceso y desplazamiento durante la transición.",
+    "limit": "Combina estudios de distintos países. Sus efectos numéricos no se trasladan automáticamente a España; contrastar con la evidencia catalana ya incluida."
+  },
+  {
+    "id": "C05",
+    "title": "Reforma de pensiones: efectos por medidas y generaciones",
+    "author": "Alfonso R. Sánchez Martín, Ángel de la Fuente y Miguel Ángel García Díaz",
+    "community": "FEDEA",
+    "date": "2025-09",
+    "kind": "Modelo de simulación",
+    "url": "https://documentos.fedea.net/pubs/eee/2025/eee2025-21.pdf",
+    "topics": ["pensiones", "empleo", "demografia"],
+    "summary": "El modelo MSSP-OLG compara medidas individuales y su efecto conjunto sobre ingresos, gastos y bienestar de diferentes cohortes. Sus resultados difieren de las previsiones del Gobierno.",
+    "application": "Comparar supuestos sobre jubilación, cotizaciones y prestaciones futuras; publicar quién gana y quién financia cada paquete.",
+    "limit": "Son escenarios condicionados al modelo. No mezclar su déficit antes de transferencias con la deuda de AIReF ni tratar las diferencias entre ejercicios como una predicción única."
+  },
+  {
+    "id": "C06",
+    "title": "Vivir en la España vaciada: transición y territorio",
+    "author": "Luis del Romero Renau",
+    "community": "FUHEM Ecosocial",
+    "date": "2023-03",
+    "kind": "Diagnóstico y propuesta ecosocial",
+    "url": "https://www.fuhem.es/2023/03/31/el-arte-de-vivir-en-la-espana-vaciada/",
+    "topics": ["demografia", "energia", "agua", "agro", "movilidad"],
+    "summary": "Aborda la crisis climática y la vida rural desde una transición ecosocial, con atención a necesidades cotidianas y alternativas para habitar el territorio.",
+    "application": "Evaluar energía, movilidad y servicios rurales por sus beneficios para residentes y sus límites ambientales.",
+    "limit": "Es una perspectiva normativa. No equivale a una proyección demográfica ni prueba por sí sola el impacto de cada alternativa."
+  }
+]
