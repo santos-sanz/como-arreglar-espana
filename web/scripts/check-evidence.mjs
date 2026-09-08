@@ -30,3 +30,16 @@ const visit = id => { if (reached.has(id)) return; reached.add(id); topics.find(
 visit(topics[0].id);
 assert.equal(reached.size, topics.length, 'Disconnected subsystem map');
 console.log(`${topics.length} complete subsystems; ${sources.length} unique sources; all references resolve and graph is connected.`);
+
+const community = read('../app/community.json');
+assert.equal(new Set(community.map(r => r.id)).size, community.length, 'Duplicate reading IDs');
+assert.equal(new Set(community.map(r => r.url)).size, community.length, 'Duplicate readings');
+for (const reading of community) {
+  for (const field of ['title', 'author', 'community', 'date', 'kind', 'summary', 'application', 'limit']) {
+    assert.ok(reading[field]?.trim(), `${reading.id}: missing ${field}`);
+  }
+  assert.match(reading.date, /^\d{4}-\d{2}(-\d{2})?$/);
+  assert.equal(new URL(reading.url).protocol, 'https:');
+  assert.ok(reading.topics.length && reading.topics.every(id => topicIds.has(id)), `${reading.id}: invalid subsystem`);
+}
+console.log(`${community.length} community readings with attribution, scope and valid subsystem links.`);

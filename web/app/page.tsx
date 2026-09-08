@@ -17,6 +17,7 @@ import {
   AccordionContent,
 } from '@/components/ui/accordion';
 import sources from './sources.json';
+import community from './community.json';
 import {
   ArrowUpRight,
   ArrowDown,
@@ -65,6 +66,36 @@ const links = topics.flatMap((t, a) =>
     .map((id) => [a, topics.findIndex((x) => x.id === id)])
     .filter(([from, to]) => from < to),
 );
+
+function CommunityReadings({ topicId }: { topicId?: string }) {
+  const readings = topicId
+    ? community.filter((reading) => reading.topics.includes(topicId))
+    : community;
+  if (!readings.length) return null;
+  return (
+    <div className="community-readings">
+      {readings.map((reading) => (
+        <details key={reading.id} className="community-reading">
+          <summary>
+            <span className="reading-kind">{reading.kind}</span>
+            <span className="reading-title">{reading.title}</span>
+            <span className="reading-meta">{reading.community} · {reading.date}</span>
+          </summary>
+          <div className="reading-body">
+            <p className="reading-meta">{reading.author}</p>
+            <p>{reading.summary}</p>
+            <p><strong>Aplicación al mapa · </strong>{reading.application}</p>
+            <p><strong>Hasta dónde llega · </strong>{reading.limit}</p>
+            <p className="reading-meta">
+              {reading.topics.map((id) => topics.find((t) => t.id === id)!.title).join(' · ')}
+            </p>
+            <a href={reading.url}>Leer la publicación original o su archivo ↗</a>
+          </div>
+        </details>
+      ))}
+    </div>
+  );
+}
 
 export default function Page() {
   const [selected, setSelected] = useState(0);
@@ -372,10 +403,28 @@ export default function Page() {
           Leer el análisis completo y sus limitaciones <ArrowRight size={20} />
         </a>
       </section>
+      <section className="more-evidence" id="comunidad" aria-labelledby="community-title">
+        <div className="section-top">
+          <h2 id="community-title"><span>04</span> Ideas que ya se están debatiendo</h2>
+          <p>CPS y otras comunidades · {community.length} lecturas comentadas</p>
+        </div>
+        <p className="community-intro">
+          Incentivos, talento, vivienda y territorio. Abre cada lectura para ver qué
+          aporta y cómo se conecta con el mapa. Son aportaciones de sus autores;
+          no expresan un consenso de CPS Spain ni un aval de esta web.
+        </p>
+        <CommunityReadings />
+        <p className="community-intro">
+          La aplicación al mapa es una interpretación editorial. Consulta la{' '}
+          <a href="https://github.com/santos-sanz/como-arreglar-espana/blob/main/docs/analisis-comunidad.md">
+            búsqueda y los materiales pendientes de verificación ↗
+          </a>. Lecturas revisadas el 8 de septiembre de 2026.
+        </p>
+      </section>
       <section className="more-evidence" id="fuentes">
         <div className="section-top">
           <h2>
-            <span>04</span> Profundiza sin perderte
+            <span>05</span> Profundiza sin perderte
           </h2>
           <p>Qué falta en los titulares y dónde comprobarlo.</p>
         </div>
@@ -597,6 +646,13 @@ export default function Page() {
                 })}
               </div>
             </section>
+            {community.some((reading) => reading.topics.includes(topic.id)) && (
+              <section aria-label="Análisis de la comunidad">
+                <h3>Otras miradas sobre este ámbito</h3>
+                <p>Lecturas comentadas. La aplicación al mapa es editorial.</p>
+                <CommunityReadings topicId={topic.id} />
+              </section>
+            )}
             <section className="modal-sources">
               <h3>Evidencia y límites</h3>
               <p>{topic.caution}</p>
