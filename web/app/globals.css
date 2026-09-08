@@ -1229,3 +1229,19 @@ footer a {
   }
 }
 .node > span:nth-child(2){max-width:100%;overflow-wrap:anywhere}
+
+/* Lecturas comunitarias: extensión del azul cerámico de las fichas. */
+.community-intro { max-width: 850px; margin: 20px 0; font-size: 1rem; line-height: 1.7; }
+.community-intro a, .reading-body a { color: #f4cf65; text-decoration: underline; text-underline-offset: 4px; }
+.community-readings { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin: 24px 0; align-items: start; }
+.community-reading { border: 1px solid #405673; border-top: 3px solid #f4cf65; background: #192843; border-radius: 6px; overflow-wrap: anywhere; }
+.community-reading summary { cursor: pointer; padding: 20px; }
+.community-reading summary::marker { color: #f4cf65; }
+.community-reading summary:focus-visible { outline: 3px solid #f4cf65; outline-offset: -3px; }
+.reading-kind { font-size: .875rem; color: #f4cf65; }
+.reading-title { display: block; font-size: 1.2rem; font-weight: 650; line-height: 1.4; margin: 10px 0; }
+.reading-meta { display: block; font-size: .875rem; line-height: 1.6; color: #c0cde1; }
+.reading-body { padding: 0 20px 20px; font-size: 1rem; line-height: 1.7; }
+.reading-body p { margin: 0 0 14px; }
+.modal-scroll .community-readings { grid-template-columns: 1fr; }
+@media (max-width: 700px) { .community-readings { grid-template-columns: 1fr; } }
